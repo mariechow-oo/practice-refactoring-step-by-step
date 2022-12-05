@@ -5,6 +5,6 @@ public class Police {
     public static final int LEGAL_AGE = 18;
 
     public boolean checkDriver(Driver driver) {
-        return driver.age >= LEGAL_AGE;
+        return driver.getAge() >= LEGAL_AGE;
     }
 }

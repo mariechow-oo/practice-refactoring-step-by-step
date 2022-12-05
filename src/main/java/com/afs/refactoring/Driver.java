@@ -8,10 +8,6 @@ public class Driver {
         this.age = age;
     }
 
-    public int getAge() {
-        return age;
-    }
-
     public boolean isAdult() {
         return age >= ADULT_AGE;
     }
